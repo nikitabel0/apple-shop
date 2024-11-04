@@ -1,0 +1,17 @@
+
+.header{
+   background-color: #211F1F;
+   height: 55px;
+ 
+}
+.header__list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-grid__block{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70%, 1fr)) 20%;
+  gap: 120px;
+}
