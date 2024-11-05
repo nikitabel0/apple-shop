@@ -10,7 +10,7 @@ export default function Intro(){
                 <h1>Iphone 16 Pro Max</h1>
                 <div className="button__block">
                     <BlueButton>Узнать</BlueButton>
-                    <Button>Купить</Button>
+                    <a href="/card"><Button>Купить</Button></a>
                 </div>
                 
             </Container>
