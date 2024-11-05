@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Options.css';
 import { products } from '../../data';
 import { useParams } from 'react-router-dom';
+import CounterButton from '../button/CounterButton.JSX';
 export default function Options() {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
@@ -51,7 +52,7 @@ export default function Options() {
                 <p></p>
                 <p>Артикул: 22698</p>
             </div>
-            <h3>{price ? `${price} р` : 'Цена не установлена'}</h3>
+            <h3>{price ? `${price} р` : 'помогите'}</h3>
             <div className='blue-line'></div>
             <ul className="options-list">
                 <li>

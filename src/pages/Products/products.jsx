@@ -12,6 +12,7 @@ export default function Products(){
     return(
         <>
           <Container>
+                <input  type="text" />
                <ul className="product-list" >
                     {products.map((product)=>(<li onClick={()=>handProductClick(product.id)} className="product-item">
                             <img   className="product-image" />

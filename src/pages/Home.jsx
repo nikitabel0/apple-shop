@@ -1,7 +1,9 @@
 
+import RoundButton from '../copmponents/button/roundButton'
 import TransponentButton from '../copmponents/button/TransparentButton'
 import Header from '../copmponents/Header/header'
 import Intro from '../copmponents/intro/Intro'
+import Sale from '../copmponents/sale/sale'
 
 function Home() {
   
@@ -9,15 +11,15 @@ function Home() {
   return (
 
       <>
-      <TransponentButton>fddgdfgdgfdfg</TransponentButton>
         <Header></Header>
-    
         <main>
           <Intro></Intro>
           
 
 
         </main>
+        
+        <Sale></Sale>
        
       </>
       

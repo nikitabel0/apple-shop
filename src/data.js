@@ -92,11 +92,5 @@ export const products = [
         title: 'HomePod',
         description: 'MQJW2 (Spatial Audio, Siri, Multi-Room Audio, Wi-Fi)',
         price: '25 990'
-    },
-    {
-        id: 12,
-        title: 'Magic Keyboard',
-        description: 'MK2A3 (Wireless, Backlit, Touch ID, English)',
-        price: '14 990'
     }
 ];

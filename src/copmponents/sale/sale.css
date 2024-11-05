@@ -1,0 +1,17 @@
+.sale__list{
+    width: 124px;
+    height: 194px;
+    border-radius: 15px;
+    border: 1px solid #0004E4;
+}
+.sale__block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.sale__title{
+    width: Bold;
+    
+
+}

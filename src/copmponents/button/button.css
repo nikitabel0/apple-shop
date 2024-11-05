@@ -44,5 +44,13 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #6B6666;
 }
+
+.round__button{
+  width: 71px;
+  height: 71px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid #0004E4 ;
+}
   
 

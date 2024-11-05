@@ -1,0 +1,24 @@
+.Card__block{
+    color: black;
+    width: 1110px;
+    background-color: white;
+    border: 1px solid #0004E4;
+    border-radius: 15px;
+}
+
+.product__img{
+    max-width: 100%;
+}
+.product__block{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.name__block{
+    display: flex;
+    flex-direction: column;
+}
+.button_block{
+    margin-top: 10px;
+}

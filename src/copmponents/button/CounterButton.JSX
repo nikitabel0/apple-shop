@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
 
-const CounterButton = () => {
-    const [count, setCount] = useState(0);
+
+const CounterButton = ({count,setCount}) => {
+ 
 
     const increment = () => setCount(count + 1);
     const decrement = () => setCount(count - 1);
