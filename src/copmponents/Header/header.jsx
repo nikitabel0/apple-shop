@@ -5,10 +5,11 @@ import Button from "../button/button";
 import basket from '/basket.svg'
 import { useState } from "react";
 import Modal from "../Modal/Modal";
+import BlueButton from "../button/BlueButton";
 
 export default function Header(){
     const[modal,setModal]=useState(false)
-  
+    const [registr,setRegist]=useState(false)
 
     return(
         <header className="header">
@@ -32,8 +33,9 @@ export default function Header(){
                 </div>
             </div>
             <Modal open={modal}>
-                <h1>ты пидор</h1>
-                <Button onClick={()=>setModal(false)}></Button>
+                <h1></h1>
+                <BlueButton onClick={()=>setRegist(true)}></BlueButton>
+                <Button onClick={()=>setModal(false)}>Закрыться</Button>
 
             </Modal>
         </Container>
