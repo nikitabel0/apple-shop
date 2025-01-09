@@ -36,6 +36,7 @@ export default function Card({}){
                         </div>
                  </div>
                     <Options></Options>
+                    
                 </div>
             </Container>
 

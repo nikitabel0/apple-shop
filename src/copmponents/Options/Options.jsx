@@ -7,6 +7,9 @@ export default function Options() {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
     const [price, setPrice] = useState(null);
+    const [count, setCount] = useState(1);
+   
+
 
     useEffect(() => {
         const foundProduct = products.find((p) => p.id === parseInt(id));
@@ -43,7 +46,7 @@ export default function Options() {
             default:
                 break;
         }
-        setPrice(newPrice);
+        setPrice(newPrice*count);
     };
 
     return (
@@ -52,7 +55,7 @@ export default function Options() {
                 <p></p>
                 <p>Артикул: 22698</p>
             </div>
-            <h3>{price ? `${price} р` : 'помогите'}</h3>
+            <h3>{price ? `${price*count} р` : 'помогите'}</h3>
             <div className='blue-line'></div>
             <ul className="options-list">
                 <li>
@@ -102,6 +105,14 @@ export default function Options() {
                     <label htmlFor="package">Упаковка +990 р</label>
                 </li>
             </ul>
+            <CounterButton setCount={setCount}  count={count} />
+
+            <div><button>+</button>
+            
+            
+
+                
+            </div>
         </div>
     );
 }

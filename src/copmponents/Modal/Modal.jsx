@@ -14,7 +14,10 @@ export default function Modal({children, open}){
     },[open])
  
     return createPortal(
-        <dialog ref={dialog}>{children}</dialog>,
+        <dialog ref={dialog}>{children} 
+        <input type="text" />
+        
+        </dialog>,
         document.getElementById('modal')
       )
 }

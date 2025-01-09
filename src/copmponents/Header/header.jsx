@@ -33,7 +33,8 @@ export default function Header(){
                 </div>
             </div>
             <Modal open={modal}>
-                <h1></h1>
+                <h1>регистрация</h1>
+                <input type="" />
                 <BlueButton onClick={()=>setRegist(true)}></BlueButton>
                 <Button onClick={()=>setModal(false)}>Закрыться</Button>
 
